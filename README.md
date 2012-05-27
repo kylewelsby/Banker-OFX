@@ -3,7 +3,7 @@
 [travis]:http://travis-ci.org/BritRuby/Banker-OFX
 [gemnasium]:https://gemnasium.com/BritRuby/Banker-OFX
 
-A simple OFX (Open Financial Exchange) parser for Bank Accounts and Credit Cards. Supports multiple accounts.
+A simple OFX (Open Financial Exchange) parser originally forked from Nando Vieira. Now supports Bank Accounts and Credit Cards as well as Multiple Accounts.
 
 ### Usage
 

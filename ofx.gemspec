@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors     = ['Kyle Welsby', 'Chuck Hardy', "Nando Vieira"]
   gem.email       = ['app@britishruby.com', "fnando.vieira@gmail.com"]
   gem.homepage    = 'https://github.com/BritRuby/Banker-OFX'
-  gem.description = %q{A simple OFX (Open Financial Exchange) parser built on top of Nokogiri. Currently supports OFX 102, 200 and 211.}
+  gem.description = %q{A simple OFX (Open Financial Exchange) parser originally forked from Nando Vieira. Now supports Bank Accounts and Credit Cards as well as Multiple Accounts.}
   gem.summary     = gem.description
 
   gem.add_runtime_dependency 'nokogiri'
