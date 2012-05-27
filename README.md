@@ -1,4 +1,4 @@
-# Banker [![CI Build Status](https://secure.travis-ci.org/BritRuby/Banker-OFX.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/BritRuby/Banker-OFX.png?travis)][gemnasium]
+# Banker-OFX [![CI Build Status](https://secure.travis-ci.org/BritRuby/Banker-OFX.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/BritRuby/Banker-OFX.png?travis)][gemnasium]
 
 [travis]:http://travis-ci.org/BritRuby/Banker-OFX
 [gemnasium]:https://gemnasium.com/BritRuby/Banker-OFX
