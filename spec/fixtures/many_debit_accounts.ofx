@@ -1,0 +1,154 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20120526161756[-5:EST]
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+
+    <STMTTRNRS>
+      <TRNUID>1
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>GBP
+        <BANKACCTFROM>
+          <BANKID>492301
+          <ACCTID>20606470168394
+          <ACCTTYPE>SAVINGS
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20120506161756[-5:EST]
+          <DTEND>20120526161756[-5:EST]
+
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00
+          <DTASOF>20120525000000[-5:EST]
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+
+    <STMTTRNRS>
+      <TRNUID>1
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>GBP
+        <BANKACCTFROM>
+          <BANKID>492900
+          <ACCTID>59359405460602
+          <ACCTTYPE>SAVINGS
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20120506161756[-5:EST]
+          <DTEND>20120526161756[-5:EST]
+
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.16
+          <DTASOF>20120525000000[-5:EST]
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+
+    <STMTTRNRS>
+      <TRNUID>1
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>GBP
+        <BANKACCTFROM>
+          <BANKID>492900
+          <ACCTID>90166008460602
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20120506161756[-5:EST]
+          <DTEND>20120526161756[-5:EST]
+
+          <STMTTRN>
+            <TRNTYPE>OTHER
+            <DTPOSTED>20120504000000[-5:EST]
+            <TRNAMT>-20.34
+            <FITID>+201205040000001
+
+            <NAME>INTEREST CHARGED
+          </STMTTRN>
+
+          <STMTTRN>
+            <TRNTYPE>OTHER
+            <DTPOSTED>20120501000000[-5:EST]
+            <TRNAMT>-6.50
+            <FITID>+201205010000001
+
+            <NAME>ACCOUNT FEE 1 @ £6.50
+          </STMTTRN>
+
+          <STMTTRN>
+            <TRNTYPE>PAYMENT
+            <DTPOSTED>20120425000000[-5:EST]
+            <TRNAMT>-500.00
+            <FITID>+201204250000001
+
+            <NAME>JOE J Smith TRANSFER LLOYDS BB
+          </STMTTRN>
+
+          <STMTTRN>
+            <TRNTYPE>DIRECTDEP
+            <DTPOSTED>20120424000000[-5:EST]
+            <TRNAMT>1566.40
+            <FITID>+201204240000001
+
+            <NAME>MBNA EUROPE BANK 781848711857045
+          </STMTTRN>
+
+          <STMTTRN>
+            <TRNTYPE>DIRECTDEP
+            <DTPOSTED>20120413000000[-5:EST]
+            <TRNAMT>600.00
+            <FITID>+201204130000001
+
+            <NAME>C Smith OVERDRAFT PAYOFF BGC
+          </STMTTRN>
+
+          <STMTTRN>
+            <TRNTYPE>PAYMENT
+            <DTPOSTED>20120410000000[-5:EST]
+            <TRNAMT>-100.00
+            <FITID>+201204100000001
+
+            <NAME>JOE J Smith TRANSFER LLOYDS BB
+          </STMTTRN>
+
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>87.89
+          <DTASOF>20120525000000[-5:EST]
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+
+  </BANKMSGSRSV1>
+</OFX>
