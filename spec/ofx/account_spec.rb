@@ -58,7 +58,6 @@ describe OFX::Account do
         it { subject.transactions.size.should eql(2) }
         it { subject.balance.amount.should eql(-562.0) }
         it { subject.balance.amount_in_pennies.should eql(-56200) }
-        it { subject.balance.posted_at.should eql(Time.parse("2005-08-31 16:51:53 +0100")) }
       end
     end
 
