@@ -17,7 +17,7 @@ module OFX
         return document if document.respond_to?(:read)
         open(document, "r:iso-8859-1:utf-8")
       rescue
-        StringIO.new(document.encode('utf-8'))
+        StringIO.new(utf8_converter(document))
       end
 
       def prepare(content)
@@ -57,10 +57,15 @@ module OFX
       end
 
       def condition_body(body)
-        body.gsub!(/>\s+</m, "><").
-             gsub!(/\s+</m, "<").
-             gsub!(/>\s+/m, ">").
-             gsub!(/<(\w+?)>([^<]+)/m, '<\1>\2</\1>')
+        body.gsub!(/>\s+</m, "><")
+        body.gsub!(/\s+</m, "<")
+        body.gsub!(/>\s+/m, ">")
+        body.gsub!(/<(\w+?)>([^<]+)/m, '<\1>\2</\1>')
+      end
+
+      def utf8_converter(string)
+        return string if Kconv.isutf8(string)
+        Iconv.conv("UTF-8", "LATIN1//IGNORE", string)
       end
     end
   end
