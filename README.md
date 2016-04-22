@@ -1,7 +1,8 @@
-# Banker-OFX [![CI Build Status](https://secure.travis-ci.org/BritRuby/Banker-OFX.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/BritRuby/Banker-OFX.png?travis)][gemnasium]
+# Banker-OFX [![CI Build Status](https://travis-ci.org/kylewelsby/Banker-OFX.svg?branch=master)][travis] [![Dependency Status](https://gemnasium.com/badges/github.com/kylewelsby/Banker-OFX.svg)][gemnasium] [![Coverage Status](https://coveralls.io/repos/github/kylewelsby/Banker-OFX/badge.svg?branch=master)][coveralls]
 
-[travis]:http://travis-ci.org/BritRuby/Banker-OFX
-[gemnasium]:https://gemnasium.com/BritRuby/Banker-OFX
+[travis]:https://travis-ci.org/kylewelsby/Banker-OFX
+[gemnasium]:https://gemnasium.com/github.com/kylewelsby/Banker-OFX
+[coveralls]:https://coveralls.io/github/kylewelsby/Banker-OFX?branch=master
 
 A simple OFX (Open Financial Exchange) parser originally forked from Nando Vieira. Now supports Bank Accounts and Credit Cards as well as Multiple Accounts.
 
@@ -31,8 +32,11 @@ A simple OFX (Open Financial Exchange) parser originally forked from Nando Vieir
 
 ### Supports
 #### Ruby
-* 1.9.2
-* 1.9.3
+* 1.9
+* 2.0
+* 2.1
+* 2.2
+* 2.3
 
 #### OFX
 * 1.0.2
@@ -44,6 +48,14 @@ A simple OFX (Open Financial Exchange) parser originally forked from Nando Vieir
 ### Original Fork
 
 * Nando Vieira - https://github.com/fnando/ofx
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
 ### License
 

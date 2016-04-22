@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "gem-release"
   gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'simplecov'
+  gem.add_development_dependency 'coveralls'
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

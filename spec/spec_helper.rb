@@ -1,9 +1,5 @@
-unless ENV['TRAVIS']
-  require 'simplecov'
-  SimpleCov.start do
-    add_filter '/spec'
-  end
-end
+require 'coveralls'
+Coveralls.wear!
 
 require 'rspec'
 require "ofx"
