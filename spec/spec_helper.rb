@@ -10,7 +10,7 @@ require "ofx"
 
 RSpec.configure do |config|
   config.order = :rand
-  config.color_enabled = true
+  config.expect_with(:rspec) { |c| c.syntax = :should }
 
   config.filter_run :focus => true
   config.run_all_when_everything_filtered = true
